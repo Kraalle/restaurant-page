@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    height: 100vh;
+    background-color: beige;
+    flex-direction: column;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+}
+
+#header {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.welcome-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.food-list {
+    padding: 0;
+}
+
+.review-div, .availability-div, .location-div, .menu-div {
+    border: solid black 1px;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.menu-title-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
